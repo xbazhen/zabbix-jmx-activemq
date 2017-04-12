@@ -6,8 +6,6 @@ Based on https://github.com/xbazhen/zabbix-jmx-activemq/.
  1. 需要对ActiveMQ里面的一些内置信息做监控.
  2. 通过JMX直接监控ActiveMQ
 
-Works with [ActivemQ Artemis](https://activemq.apache.org/artemis/) > 1.2.0.
-For [HornetQ](http://hornetq.jboss.org/) see hornetq branch
 
 Requirements
 ------------
@@ -27,4 +25,12 @@ Usage
 {$JMX_DOMAIN_NAME} => org.apache.activemq
 ```
 - zabbix的web管理页面添加jmx监控项即可
-- 详情数据参见 activemq_latest_data
+- 详情数据参见 activemq_latest_data.png
+
+
+
+Reference
+------------
+- activemq配置jmx：
+http://activemq.apache.org/jmx.html
+- 通过jolokia 获取activemq的API： http://www.jakubkorab.net/2013/11/monitoring-activemq-via-http.html
