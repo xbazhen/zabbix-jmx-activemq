@@ -34,3 +34,4 @@ Reference
 - activemq配置jmx：
 http://activemq.apache.org/jmx.html
 - 通过jolokia 获取activemq的API： http://www.jakubkorab.net/2013/11/monitoring-activemq-via-http.html
+- 
